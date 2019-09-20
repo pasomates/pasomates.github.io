@@ -1,0 +1,48 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	display:flex;
+	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	background-image: linear-gradient(to bottom,rgba(255,255,255,0),rgba(0,0,0,0.5)),
+	url(http://iesmonre.educa.aragon.es/alumnos0809/diadia0809/Diadia3/pintinho_pi.jpg);
+	/*background-size: cover;*/
+}
+
+h2 {
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	font-size: 40px;
+  	margin-left: 20px;
+  	margin-right: 20px;
+}
+
+.texto {
+	border: 3px solid black;
+	background: rgba(255,255,255,0.8);
+}
+
+.startup-text {
+	font-size: 60px;
+	font-weight: bold;	
+}
+
+.btn-outline-warning {
+	border-radius: 10px;
+	margin-top: 10px;
+	color: white;
+	background-color: rgba(239, 158, 52,0.6);
+	text-transform: uppercase;
+}
+
+.btn-outline-warning:hover {
+	box-shadow: 4px 4px 5px #888888;
+	cursor: pointer;
+}
+
